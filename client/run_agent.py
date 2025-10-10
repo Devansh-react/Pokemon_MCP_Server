@@ -11,7 +11,6 @@ async def get_pokemon_data(name: str) -> dict:
     """Fetch Pokémon data by name."""
     return await get_pokemon_handler(name)
 
-# Register a Tool using decorator syntax
 @mcp.tool(
     description="Simulate a Pokémon battle between two Pokémon."
 )
@@ -19,9 +18,9 @@ async def pokemon_battle(pokemon_a: dict, pokemon_b: dict, seed: int | None = No
     """Simulate a battle between two Pokémon."""
     return await battle_simulation_handler(pokemon_a, pokemon_b, seed)
 
-# CRITICAL: Run with stdio transport
+
 if __name__ == "__main__":
     import sys
-    # Redirect all print statements to stderr to avoid polluting stdio
+
     sys.stderr.write("Starting Pokemon MCP Server...\n")
     mcp.run(transport="stdio")

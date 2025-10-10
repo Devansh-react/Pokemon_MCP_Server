@@ -22,6 +22,5 @@ async def simulate_battle(pokemon_a: dict, pokemon_b: dict, seed: int | None = N
 
 if __name__ == "__main__":
     import sys
-    # Redirect all print statements to stderr to avoid polluting stdio
     sys.stderr.write("Starting Pokemon MCP Server...\n")
     app.run(transport="stdio")

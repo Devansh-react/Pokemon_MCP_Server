@@ -3,7 +3,7 @@ from server.battle_engine import simulate_battle
 import json
 import os
 
-# Load pokemon_seed from the actual seed file
+
 seed_path = os.path.join(os.path.dirname(__file__), "../seeds/pokemon_seed.json")
 with open(seed_path, "r") as f:
     pokemon_seed = json.load(f)
