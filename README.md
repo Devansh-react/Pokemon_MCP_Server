@@ -1,4 +1,5 @@
 # 📘 **Pokémon MCP Battle Server**
+Working for the first time with MCP tried my best to learn about MCP servers and work with them , take the help from various sources out there to build it 
 
 _A modern MCP (Model Context Protocol) demo built with Python, FastMCP, and LangChain._
 
