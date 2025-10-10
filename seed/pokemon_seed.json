@@ -1,0 +1,50 @@
+{
+    "pokemon": [
+        {
+            "name": "Pikachu",
+            "types": [
+                "Electric"
+            ],
+            "level": 50,
+            "stats": {
+                "hp": 200,
+                "attack": 90,
+                "defense": 60,
+                "sp_attack": 100,
+                "sp_defense": 70,
+                "speed": 110
+            },
+            "moves": [
+                {
+                    "name": "Thunderbolt",
+                    "power": 90,
+                    "type": "Electric",
+                    "category": "special"
+                }
+            ]
+        },
+        {
+            "name": "Charmander",
+            "types": [
+                "Fire"
+            ],
+            "level": 50,
+            "stats": {
+                "hp": 200,
+                "attack": 80,
+                "defense": 70,
+                "sp_attack": 90,
+                "sp_defense": 80,
+                "speed": 65
+            },
+            "moves": [
+                {
+                    "name": "Ember",
+                    "power": 40,
+                    "type": "Fire",
+                    "category": "special"
+                }
+            ]
+        }
+    ]
+}

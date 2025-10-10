@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+mcp
+langchain
+langgraph
+langchain-google-genai
+langchain-mcp-adapters
+httpx
+pytest
